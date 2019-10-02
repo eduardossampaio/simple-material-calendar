@@ -6,7 +6,7 @@ button{
     border: 0
 }
 .calendar{
-    /* background-color: blue */
+    background-color: #fefefe
 }
 .calendar .header{
     height: 100px;
@@ -25,12 +25,21 @@ button{
     flex: 1;
     font-size: 1.5em
 }
+.navigation{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.navigation-icon {
+    width: 32px;
+    height: 32px;
+    margin: 20px
+}
 .calendar .body{
     margin: 0;
     display: flex;
     flex-direction: column;
     justify-content: space-between
-
 }
 .calendar .body .week-header {
     /* background-color: yellow; */
@@ -60,9 +69,17 @@ button{
     flex: 1;
     /* background-color: darkgray; */
     font-size: larger;
-    text-align: center
+    text-align: center;
+    font-size: 14px;
 }
-
+.other-day{
+    color: #ccc
+}
+.today{
+    border-radius: 50%;
+    margin: 10px;
+    color: #fefefe
+}
 .calendar-item {
     min-width: 30px;
     min-height: 30px;
