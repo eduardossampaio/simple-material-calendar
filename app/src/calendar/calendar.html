@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <script src="https://unpkg.com/vue"></script>
+    <title>Page Title</title>
+
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel='stylesheet' type='text/css' media='screen' href='main.css'>
+    <link rel='stylesheet' type='text/css' media='screen' href='palette.css'>
+
+</head>
+
+<body>
+    <div id="app" class="calendar">
+        <div  class="header dark-primary-color ">
+            <div style="display: flex; align-items: center;justify-content: center; ">
+                <img src="icon-backward.png" v-on:click="previousMonth()"/>
+            </div>
+            <div class="month-name ">
+                    <div style="flex: 1"></div>
+                    <label class="text-primary-color">{{monthName}}</label>
+                    <div style="flex: 1"></div>
+            </div>
+            <div style="display: flex; align-items: center;justify-content: center; ">
+                    <img src="icon-forward.png" v-on:click="nextMonth()"/>
+            </div>
+        </div>
+
+        <div class="body">
+            <div class="week-header">
+                <label v-for="weekday in weekdays" class="calendar-item"> {{weekday}} </label>
+            </div>
+             <div v-for="week in weeks" class="week">
+                <div class="week" v-for="weekday in week">
+                    <label v-if="weekday.otherMonth === false" class="calendar-item day accent-color-text"> {{weekday.day}} </label>
+                    <label v-if="weekday.otherMonth === true" class="calendar-item day accent-color-text">  </label>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <!-- <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script> -->
+    <script src="./renderer.js"></script>
+    <script src="./controller.js"></script>
+
+</body>
+
+</html>

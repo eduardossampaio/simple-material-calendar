@@ -1,0 +1,72 @@
+body{
+    margin: 0
+}
+button{
+    background-color: transparent;
+    border: 0
+}
+.calendar{
+    /* background-color: blue */
+}
+.calendar .header{
+    height: 100px;
+    position: relative;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center
+}
+.calendar .header .month-name {
+    font-size: 24px;
+    display: flex;
+    flex-direction: column
+}
+.calendar .header .month-name label{
+    flex: 1;
+    font-size: 1.5em
+}
+.calendar .body{
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between
+
+}
+.calendar .body .week-header {
+    /* background-color: yellow; */
+    font-size: 14;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center
+}
+.calendar .body .week-header label {
+    font-size: 20;
+    flex: 1;
+    /* background-color: aqua; */
+    text-align: center
+}
+.calendar .body .week {
+    /* background-color: chartreuse */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-content: center
+}
+
+.calendar .body .week .day{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    flex: 1;
+    /* background-color: darkgray; */
+    font-size: larger;
+    text-align: center
+}
+
+.calendar-item {
+    min-width: 30px;
+    min-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
