@@ -177,10 +177,22 @@ electron-download@^4.1.0:
     semver "^5.4.1"
     sumchecker "^2.0.2"
 
+electron-is-packaged@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/electron-is-packaged/-/electron-is-packaged-1.0.2.tgz#d4efc0dc14991ab981de65f52271badf92323c7e"
+  integrity sha512-JZpV9QgVsehop7tm3KDll2/iJ9K3e7mL+jm6E3gA96zurIhxv3FZ0kxJK0eGL9c3SYORU1rN+/q2Ia8/v62Pjw==
+
 electron-positioner@^4.1.0:
   version "4.1.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/electron-positioner/-/electron-positioner-4.1.0.tgz#e158f8f6aabd6725a8a9b4f2279b9504bcbea1b0"
   integrity sha1-4Vj49qq9ZyWoqbTyJ5uVBLy+obA=
+
+electron-root-path@^1.0.9:
+  version "1.0.16"
+  resolved "https://registry.yarnpkg.com/electron-root-path/-/electron-root-path-1.0.16.tgz#2e18086665303993859e5f9f501cfbcb5cab9351"
+  integrity sha512-5HVw3k5crnbezyPCdkY3wLsbOfCKIrRtbq2IPl5Ocs7FA86b9JxAIESqEXm1YD5MaZq07HOCl2DNOQZl/IWebw==
+  dependencies:
+    electron-is-packaged "^1.0.2"
 
 electron@^6.0.10:
   version "6.0.10"
@@ -494,6 +506,11 @@ mkdirp@0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.24.0:
+  version "2.29.1"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.1.tgz#b2be769fa31940be9eeea6469c075e35006fa3d3"
+  integrity sha512-kHmoybcPV8Sqy59DwNDY3Jefr64lK/by/da0ViFcuA4DH0vQg5Q6Ze5VimxkfQNSC+Mls/Kx53s7TjP1RhFEDQ==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -567,9 +584,9 @@ path-exists@^3.0.0:
   integrity sha1-zg6+ql94yxiSXqfYENe1mwEP1RU=
 
 path-parse@^1.0.6:
-  version "1.0.6"
-  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/path-parse/-/path-parse-1.0.6.tgz#d62dbb5679405d72c4737ec58600e9ddcf06d24c"
-  integrity sha1-1i27VnlAXXLEc37FhgDp3c8G0kw=
+  version "1.0.7"
+  resolved "https://registry.yarnpkg.com/path-parse/-/path-parse-1.0.7.tgz#fbc114b60ca42b30d9daf5858e4bd68bbedb6735"
+  integrity sha512-LDJzPVEEEPR+y48z93A0Ed0yXb8pAByGWo/k5YYdYgpY2/2EsOsksJrq7lOHxryrVOn1ejG6oAp8ahvOIQD8sw==
 
 path-type@^1.0.0:
   version "1.1.0"
