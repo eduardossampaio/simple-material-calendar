@@ -177,10 +177,22 @@ electron-download@^4.1.0:
     semver "^5.4.1"
     sumchecker "^2.0.2"
 
+electron-is-packaged@^1.0.2:
+  version "1.0.2"
+  resolved "https://registry.yarnpkg.com/electron-is-packaged/-/electron-is-packaged-1.0.2.tgz#d4efc0dc14991ab981de65f52271badf92323c7e"
+  integrity sha512-JZpV9QgVsehop7tm3KDll2/iJ9K3e7mL+jm6E3gA96zurIhxv3FZ0kxJK0eGL9c3SYORU1rN+/q2Ia8/v62Pjw==
+
 electron-positioner@^4.1.0:
   version "4.1.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/electron-positioner/-/electron-positioner-4.1.0.tgz#e158f8f6aabd6725a8a9b4f2279b9504bcbea1b0"
   integrity sha1-4Vj49qq9ZyWoqbTyJ5uVBLy+obA=
+
+electron-root-path@^1.0.9:
+  version "1.1.0"
+  resolved "https://registry.yarnpkg.com/electron-root-path/-/electron-root-path-1.1.0.tgz#a413b1ad50cbe09cb2b723ea1aacdebad47622f8"
+  integrity sha512-hx9BU0cS36XV4EmIrHhYObADq2gMPB96dPjZ71ROfIbVp56KC058dDR38YY2xaB3M94ATa0w6bWyDBBYrKsYKw==
+  dependencies:
+    electron-is-packaged "^1.0.2"
 
 electron@^6.0.10:
   version "6.0.10"
@@ -494,6 +506,11 @@ mkdirp@0.5.1:
   dependencies:
     minimist "0.0.8"
 
+moment@^2.24.0:
+  version "2.29.4"
+  resolved "https://registry.yarnpkg.com/moment/-/moment-2.29.4.tgz#3dbe052889fe7c1b2ed966fcb3a77328964ef108"
+  integrity sha512-5LC9SOxjSc2HF6vO2CyuTDNivEdoz2IvyJJGj6X8DJ0eFyfszE0QiEd+iXmBvUP3WHxSjFH/vIsA0EN00cgr8w==
+
 ms@2.0.0:
   version "2.0.0"
   resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/ms/-/ms-2.0.0.tgz#5608aeadfc00be6c2901df5f9861788de0d597c8"
@@ -644,9 +661,9 @@ punycode@^2.1.0:
   integrity sha1-tYsBCsQMIsVldhbI0sLALHv0eew=
 
 qs@~6.5.2:
-  version "6.5.2"
-  resolved "http://atf.intranet.bb.com.br:80/artifactory/api/npm/bb-npm-repo/qs/-/qs-6.5.2.tgz#cb3ae806e8740444584ef154ce8ee98d403f3e36"
-  integrity sha1-yzroBuh0BERYTvFUzo7pjUA/PjY=
+  version "6.5.3"
+  resolved "https://registry.yarnpkg.com/qs/-/qs-6.5.3.tgz#3aeeffc91967ef6e35c0e488ef46fb296ab76aad"
+  integrity sha512-qxXIEh4pCGfHICj1mAJQ2/2XVZkjCDTcEgfoSQxc/fYivUZxTkk7L3bDBJSoNrEzXI17oUO5Dp07ktqE5KzczA==
 
 rc@^1.2.1:
   version "1.2.8"
